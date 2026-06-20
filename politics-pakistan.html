@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Politics in Pakistan - ProBlog</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">ProBlog</div>
+
+    <nav id="navMenu">
+      <a href="index.html">Home</a>
+      <a href="index.html#categories">Categories</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Politics in Pakistan</h1>
+
+      <p>
+        Read political updates, government news, election analysis,
+        current affairs and public policy discussions in Pakistan.
+      </p>
+    </div>
+  </section>
+
+  <!-- Politics Blogs -->
+  <section class="blog-section">
+    <h2>Latest Political Articles</h2>
+
+    <div class="blog-container">
+
+      <!-- Blog 1 -->
+      <div class="blog-card">
+        <img
+          src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620"
+          alt="Pakistan Politics"
+        />
+
+        <div class="blog-content">
+          <span>Politics</span>
+
+          <h3>Current Political Situation in Pakistan</h3>
+
+          <p>
+            An overview of Pakistan’s political environment,
+            major parties, leadership and national challenges.
+          </p>
+
+          <button>Read Full Blog</button>
+        </div>
+      </div>
+
+      <!-- Blog 2 -->
+      <div class="blog-card">
+        <img
+          src="https://images.unsplash.com/photo-1541872705-1f73c6400ec9"
+          alt="Government"
+        />
+
+        <div class="blog-content">
+          <span>Government</span>
+
+          <h3>Role of Government in Development</h3>
+
+          <p>
+            Good governance plays an important role in economic growth,
+            public welfare and national progress.
+          </p>
+
+          <button>Read Full Blog</button>
+        </div>
+      </div>
+
+      <!-- Blog 3 -->
+      <div class="blog-card">
+        <img
+          src="https://images.unsplash.com/photo-1495020689067-958852a7765e"
+          alt="Current Affairs"
+        />
+
+        <div class="blog-content">
+          <span>Current Affairs</span>
+
+          <h3>Important Current Affairs in Pakistan</h3>
+
+          <p>
+            Stay informed about major national issues, government decisions,
+            public debates and political updates.
+          </p>
+
+          <button>Read Full Blog</button>
+        </div>
+      </div>
+
+      <!-- Blog 4 -->
+      <div class="blog-card">
+        <img
+          src="https://images.unsplash.com/photo-1577962917302-cd874c4e31d2"
+          alt="Elections"
+        />
+
+        <div class="blog-content">
+          <span>Elections</span>
+
+          <h3>Election System in Pakistan</h3>
+
+          <p>
+            Learn how elections work in Pakistan and why public participation
+            is important for democracy.
+          </p>
+
+          <button>Read Full Blog</button>
+        </div>
+      </div>
+
+      <!-- Blog 5 -->
+      <div class="blog-card">
+        <img
+          src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85"
+          alt="Economy and Politics"
+        />
+
+        <div class="blog-content">
+          <span>Policy</span>
+
+          <h3>How Politics Affects Economy</h3>
+
+          <p>
+            Political stability, policies and decisions directly affect
+            inflation, investment and economic growth.
+          </p>
+
+          <button>Read Full Blog</button>
+        </div>
+      </div>
+
+      <!-- Blog 6 -->
+      <div class="blog-card">
+        <img
+          src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f"
+          alt="Law and Constitution"
+        />
+
+        <div class="blog-content">
+          <span>Constitution</span>
+
+          <h3>Importance of Constitution in Pakistan</h3>
+
+          <p>
+            The constitution defines citizen rights, government structure
+            and democratic principles in Pakistan.
+          </p>
+
+          <button>Read Full Blog</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About Politics -->
+  <section class="about">
+    <h2>Why Political Awareness Matters</h2>
+
+    <p>
+      Political awareness helps citizens understand government decisions,
+      public policies and national issues.
+    </p>
+
+    <p>
+      An informed public can make better decisions, support democracy
+      and take part in responsible discussions about the country.
+    </p>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <h2>Subscribe For Political Updates</h2>
+
+    <p>
+      Get latest Pakistan politics and current affairs updates in your inbox.
+    </p>
+
+    <form onsubmit="subscribeUser(event)">
+      <input
+        type="email"
+        id="email"
+        placeholder="Enter your email"
+        required
+      />
+
+      <button type="submit">Subscribe</button>
+    </form>
+
+    <p id="message"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 ProBlog. All Rights Reserved.</p>
+
+    <p>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

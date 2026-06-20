@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Business Blogs - ProBlog</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+
+    <div class="logo">ProBlog</div>
+
+    <nav id="navMenu">
+      <a href="index.html">Home</a>
+      <a href="index.html#categories">Categories</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h1>Business & Startup Blogs</h1>
+
+      <p>
+        Explore online business ideas, startups, digital marketing,
+        ecommerce, freelancing and modern business strategies.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- Business Blogs -->
+  <section class="blog-section">
+
+    <h2>Latest Business Articles</h2>
+
+    <div class="blog-container">
+
+      <!-- Blog 1 -->
+      <div class="blog-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1552664730-d307ca884978"
+          alt="Business Blog"
+        />
+
+        <div class="blog-content">
+
+          <span>Business</span>
+
+          <h3>Top Online Business Ideas in 2026</h3>
+
+          <p>
+            Discover profitable online businesses including ecommerce,
+            freelancing, SaaS platforms and digital services.
+          </p>
+
+          <button>
+            Read Full Blog
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- Blog 2 -->
+      <div class="blog-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a"
+          alt="Startup"
+        />
+
+        <div class="blog-content">
+
+          <span>Startups</span>
+
+          <h3>How To Start a Successful Startup</h3>
+
+          <p>
+            Learn important startup strategies including planning,
+            branding, marketing and scaling your business.
+          </p>
+
+          <button>
+            Read Full Blog
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- Blog 3 -->
+      <div class="blog-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1460925895917-afdab827c52f"
+          alt="Digital Marketing"
+        />
+
+        <div class="blog-content">
+
+          <span>Marketing</span>
+
+          <h3>Digital Marketing Strategies</h3>
+
+          <p>
+            Digital marketing helps businesses grow using SEO,
+            social media ads, content marketing and branding.
+          </p>
+
+          <button>
+            Read Full Blog
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- Blog 4 -->
+      <div class="blog-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+          alt="Freelancing"
+        />
+
+        <div class="blog-content">
+
+          <span>Freelancing</span>
+
+          <h3>Best Freelancing Skills To Learn</h3>
+
+          <p>
+            Skills like web development, graphic design,
+            copywriting and AI automation are highly demanded.
+          </p>
+
+          <button>
+            Read Full Blog
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- Blog 5 -->
+      <div class="blog-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1556740749-887f6717d7e4"
+          alt="Ecommerce"
+        />
+
+        <div class="blog-content">
+
+          <span>Ecommerce</span>
+
+          <h3>How Ecommerce Businesses Grow</h3>
+
+          <p>
+            Ecommerce stores use social media, branding and customer
+            experience to increase online sales.
+          </p>
+
+          <button>
+            Read Full Blog
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- Blog 6 -->
+      <div class="blog-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40"
+          alt="Business Growth"
+        />
+
+        <div class="blog-content">
+
+          <span>Growth</span>
+
+          <h3>Business Growth Tips For Beginners</h3>
+
+          <p>
+            Smart planning, customer trust and quality services
+            help businesses grow successfully.
+          </p>
+
+          <button>
+            Read Full Blog
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- About Business -->
+  <section class="about">
+
+    <h2>Why Business Knowledge Matters</h2>
+
+    <p>
+      Business knowledge helps people build successful companies,
+      create financial opportunities and improve decision making.
+    </p>
+
+    <p>
+      Modern businesses use technology, AI and digital marketing
+      to grow faster and reach more customers globally.
+    </p>
+
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+
+    <h2>Subscribe For Business Updates</h2>
+
+    <p>
+      Get latest business blogs and startup news directly in your inbox.
+    </p>
+
+    <form onsubmit="subscribeUser(event)">
+
+      <input
+        type="email"
+        id="email"
+        placeholder="Enter your email"
+        required
+      />
+
+      <button type="submit">
+        Subscribe
+      </button>
+
+    </form>
+
+    <p id="message"></p>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+
+    <p>© 2026 ProBlog. All Rights Reserved.</p>
+
+    <p>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a>
+    </p>
+
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>

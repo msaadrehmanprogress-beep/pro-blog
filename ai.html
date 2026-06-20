@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>AI Blogs - ProBlog</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+
+    <div class="logo">ProBlog</div>
+
+    <nav id="navMenu">
+      <a href="index.html">Home</a>
+      <a href="index.html#categories">Categories</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h1>Artificial Intelligence Blogs</h1>
+
+      <p>
+        Explore modern AI technologies, tools, automation,
+        machine learning and future innovations.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- AI Blogs -->
+  <section class="blog-section">
+
+    <h2>Latest AI Articles</h2>
+
+    <div class="blog-container">
+
+      <!-- Blog 1 -->
+      <div class="blog-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1677442136019-21780ecad995"
+          alt="AI Blog"
+        />
+
+        <div class="blog-content">
+
+          <span>Artificial Intelligence</span>
+
+          <h3>The Future of Artificial Intelligence</h3>
+
+          <p>
+            Artificial Intelligence is transforming businesses,
+            education and industries worldwide through automation
+            and smart technologies.
+          </p>
+
+          <button>
+            Read Full Blog
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- Blog 2 -->
+      <div class="blog-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
+          alt="Machine Learning"
+        />
+
+        <div class="blog-content">
+
+          <span>Machine Learning</span>
+
+          <h3>How Machine Learning Works</h3>
+
+          <p>
+            Machine Learning allows computers to learn from data
+            and improve performance without direct programming.
+          </p>
+
+          <button>
+            Read Full Blog
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- Blog 3 -->
+      <div class="blog-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+          alt="AI Tools"
+        />
+
+        <div class="blog-content">
+
+          <span>AI Tools</span>
+
+          <h3>Best AI Tools in 2026</h3>
+
+          <p>
+            AI tools are helping creators, developers and businesses
+            automate work and increase productivity.
+          </p>
+
+          <button>
+            Read Full Blog
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- Blog 4 -->
+      <div class="blog-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+          alt="AI Automation"
+        />
+
+        <div class="blog-content">
+
+          <span>Automation</span>
+
+          <h3>AI Automation in Business</h3>
+
+          <p>
+            Businesses are using AI automation to save time,
+            reduce costs and improve customer experience.
+          </p>
+
+          <button>
+            Read Full Blog
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- Blog 5 -->
+      <div class="blog-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5"
+          alt="AI Future"
+        />
+
+        <div class="blog-content">
+
+          <span>Future Technology</span>
+
+          <h3>Will AI Replace Human Jobs?</h3>
+
+          <p>
+            AI is changing the job market. Some jobs may disappear,
+            while many new digital opportunities will be created.
+          </p>
+
+          <button>
+            Read Full Blog
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- Blog 6 -->
+      <div class="blog-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a"
+          alt="ChatGPT"
+        />
+
+        <div class="blog-content">
+
+          <span>ChatGPT & AI</span>
+
+          <h3>How ChatGPT is Helping Students</h3>
+
+          <p>
+            Students use AI tools like ChatGPT for learning,
+            writing, coding and research assistance.
+          </p>
+
+          <button>
+            Read Full Blog
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- About AI -->
+  <section class="about">
+
+    <h2>Why AI Matters</h2>
+
+    <p>
+      Artificial Intelligence is becoming one of the most important
+      technologies in the modern world. It helps improve productivity,
+      decision making and innovation across industries.
+    </p>
+
+    <p>
+      AI is used in healthcare, education, finance, ecommerce,
+      digital marketing, cybersecurity and many other fields.
+    </p>
+
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+
+    <h2>Subscribe For AI Updates</h2>
+
+    <p>
+      Get latest AI blogs and technology news directly in your inbox.
+    </p>
+
+    <form onsubmit="subscribeUser(event)">
+
+      <input
+        type="email"
+        id="email"
+        placeholder="Enter your email"
+        required
+      />
+
+      <button type="submit">
+        Subscribe
+      </button>
+
+    </form>
+
+    <p id="message"></p>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+
+    <p>© 2026 ProBlog. All Rights Reserved.</p>
+
+    <p>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a>
+    </p>
+
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
