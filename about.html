@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>About Us - ProBlog</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+
+    <div class="logo">ProBlog</div>
+
+    <nav id="navMenu">
+      <a href="index.html">Home</a>
+      <a href="index.html#categories">Categories</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h1>About ProBlog</h1>
+
+      <p>
+        A professional blogging platform sharing latest updates,
+        technology trends, business ideas, sports news and more.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- About Owner Section -->
+  <section class="about">
+
+    <!-- YOUR IMAGE -->
+ <img
+  src="imges/owner .png"
+  alt="Owner Picture"
+  class="about-image"
+/>
+    <h2>About The Founder</h2>
+
+    <p>
+      Welcome to ProBlog.
+    </p>
+
+    <p>
+      My name is <strong>Saad ur rehman</strong> and I created this platform
+      to provide useful, professional and informative blogs for readers
+      around the world.
+    </p>
+
+    <p>
+      I am passionate about Artificial Intelligence, business,
+      technology, sports and modern digital trends. Through this website,
+      I aim to share valuable information in a simple and easy way.
+    </p>
+
+    <p>
+      ProBlog is designed to help students, professionals and readers
+      stay updated with latest developments and useful knowledge.
+    </p>
+
+  </section>
+
+  <!-- Mission Section -->
+  <section class="blog-section">
+
+    <h2>Our Mission</h2>
+
+    <div class="blog-container">
+
+      <!-- Card 1 -->
+      <div class="blog-card">
+
+        <div class="blog-content">
+
+          <span>Knowledge</span>
+
+          <h3>Provide Valuable Information</h3>
+
+          <p>
+            We share high-quality and useful blogs to keep readers
+            informed and updated.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- Card 2 -->
+      <div class="blog-card">
+
+        <div class="blog-content">
+
+          <span>Technology</span>
+
+          <h3>Promote Digital Awareness</h3>
+
+          <p>
+            Our platform focuses on modern technology, AI and digital
+            trends shaping the future.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- Card 3 -->
+      <div class="blog-card">
+
+        <div class="blog-content">
+
+          <span>Growth</span>
+
+          <h3>Help People Learn & Grow</h3>
+
+          <p>
+            We aim to help students and professionals improve their
+            knowledge and skills.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+
+    <h2>Subscribe To Newsletter</h2>
+
+    <p>
+      Get latest blogs and updates directly in your inbox.
+    </p>
+
+    <form onsubmit="subscribeUser(event)">
+
+      <input
+        type="email"
+        id="email"
+        placeholder="Enter your email"
+        required
+      />
+
+      <button type="submit">Subscribe</button>
+
+    </form>
+
+    <p id="message"></p>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+
+    <p>© 2026 ProBlog. All Rights Reserved.</p>
+
+    <p>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a>
+    </p>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
