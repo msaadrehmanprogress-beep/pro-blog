@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Sports Blogs - ProBlog</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+
+    <div class="logo">ProBlog</div>
+
+    <nav id="navMenu">
+      <a href="index.html">Home</a>
+      <a href="index.html#categories">Categories</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h1>Cricket & Football Blogs</h1>
+
+      <p>
+        Explore cricket and football news, match analysis,
+        player updates, tournaments and sports trends.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- Sports Blogs -->
+  <section class="blog-section">
+
+    <h2>Latest Sports Articles</h2>
+
+    <div class="blog-container">
+
+      <!-- Blog 1 -->
+      <div class="blog-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e"
+          alt="Cricket Blog"
+        />
+
+        <div class="blog-content">
+
+          <span>Cricket</span>
+
+          <h3>Top Cricket Players in 2026</h3>
+
+          <p>
+            Discover the best cricket players, their performance,
+            records and achievements in international cricket.
+          </p>
+
+          <button>
+            Read Full Blog
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- Blog 2 -->
+      <div class="blog-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1518604666860-9ed391f76460"
+          alt="Football Blog"
+        />
+
+        <div class="blog-content">
+
+          <span>Football</span>
+
+          <h3>Football Clubs Dominating Europe</h3>
+
+          <p>
+            Learn about the strongest football clubs, star players
+            and biggest competitions in world football.
+          </p>
+
+          <button>
+            Read Full Blog
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- Blog 3 -->
+      <div class="blog-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1574629810360-7efbbe195018"
+          alt="Sports Training"
+        />
+
+        <div class="blog-content">
+
+          <span>Training</span>
+
+          <h3>How Athletes Stay Fit</h3>
+
+          <p>
+            Professional athletes follow strict training routines,
+            fitness plans and healthy lifestyles.
+          </p>
+
+          <button>
+            Read Full Blog
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- Blog 4 -->
+      <div class="blog-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1508098682722-e99c643e7485"
+          alt="Cricket World Cup"
+        />
+
+        <div class="blog-content">
+
+          <span>World Cup</span>
+
+          <h3>Cricket World Cup Highlights</h3>
+
+          <p>
+            Read exciting moments, team performances and memorable
+            matches from cricket world tournaments.
+          </p>
+
+          <button>
+            Read Full Blog
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- Blog 5 -->
+      <div class="blog-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1522778119026-d647f0596c20"
+          alt="Football Match"
+        />
+
+        <div class="blog-content">
+
+          <span>Football Matches</span>
+
+          <h3>Most Exciting Football Rivalries</h3>
+
+          <p>
+            Football rivalries create passion and excitement
+            among fans all around the world.
+          </p>
+
+          <button>
+            Read Full Blog
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- Blog 6 -->
+      <div class="blog-card">
+
+        <img
+          src="https://images.unsplash.com/photo-1517649763962-0c623066013b"
+          alt="Sports News"
+        />
+
+        <div class="blog-content">
+
+          <span>Sports News</span>
+
+          <h3>Latest Sports Developments</h3>
+
+          <p>
+            Stay updated with latest cricket and football news,
+            player transfers and tournament updates.
+          </p>
+
+          <button>
+            Read Full Blog
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- About Sports -->
+  <section class="about">
+
+    <h2>Why Sports Matter</h2>
+
+    <p>
+      Sports help improve fitness, teamwork, discipline and
+      entertainment. Cricket and football are among the most
+      popular sports worldwide.
+    </p>
+
+    <p>
+      Millions of fans follow sports daily for excitement,
+      inspiration and international competitions.
+    </p>
+
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+
+    <h2>Subscribe For Sports Updates</h2>
+
+    <p>
+      Get latest cricket and football news directly in your inbox.
+    </p>
+
+    <form onsubmit="subscribeUser(event)">
+
+      <input
+        type="email"
+        id="email"
+        placeholder="Enter your email"
+        required
+      />
+
+      <button type="submit">
+        Subscribe
+      </button>
+
+    </form>
+
+    <p id="message"></p>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+
+    <p>© 2026 ProBlog. All Rights Reserved.</p>
+
+    <p>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a>
+    </p>
+
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
